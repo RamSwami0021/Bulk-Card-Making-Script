@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+
+        .card {
+            width: 85.6mm;
+            height: 53.98mm;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #ffffff;
+            color: black;
+            border-radius: 20px;
+            word-break: break-word;
+            border: 1px solid black;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+
+        .card-back .contact {
+            text-align: left;
+        }
+
+        .card-back .qrcode {
+            text-align: right;
+            display: inline-grid;
+            position: relative;
+            top: -125px;
+            right: -110px;
+        }
+        .logo{
+            padding-top: 44px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <img src="ca.png" width="80px" alt="">
+                <h2>[Your Name]</h2>
+                <h3>[Your Designation]</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card card-back">
+            <div class="card-body">
+                <div class="contact">
+                    <h2>[Your Name]</h2>
+                    <h4>[Your Phone]</h4>
+                    <h4>[Your Email]</h4>
+                </div>
+                <div class="qrcode">
+                    <img src="qrcode.png" width="100px" alt="">
+                    <img class="logo" src="logo.png" width="100px" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
